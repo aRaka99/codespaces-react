@@ -14,7 +14,6 @@
 }
 
 .rescard{
-  border: 1px solid black;
   margin: 2px;
   width:200px;
   padding:5px
@@ -26,4 +25,8 @@
   display: flex;
  justify-content: center;
   flex-wrap: wrap;
+}
+.rescard:hover{
+  border: 1px solid grey;
+  cursor: pointer;
 }
