@@ -1,9 +1,32 @@
+
 .header{
   display: flex;
   justify-content: space-between;
   margin: 0 20px 0 20px;
 }
+.footer{
+  display:flex;
+  justify-content: center;
+}
 
+.res-card{
+  width:200px;
+  border: 1px solid black;
+  margin:10px;
+  padding:5px;
+  background-color:azure;
+  
+  
+}
+.res-card > img{
+  width:200px;
+  height:200px;
+  border-radius:2px
+}
+.res-container{
+  display:flex;
+  flex-wrap: wrap;
+}
 .logo > img{
   width:50px;
 
@@ -11,22 +34,4 @@
 .user > img{
   width: 30px;
   margin: 5px;
-}
-
-.rescard{
-  margin: 2px;
-  width:200px;
-  padding:5px
-}
-.rescard > img{
-  width: 200px;
-}
-.res-Container{
-  display: flex;
- justify-content: center;
-  flex-wrap: wrap;
-}
-.rescard:hover{
-  border: 1px solid grey;
-  cursor: pointer;
 }
