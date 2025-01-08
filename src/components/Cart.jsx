@@ -2,7 +2,13 @@ const Cart = () => {
     return (
       <>
          <div className='user'>
-        <img src="https://www.svgrepo.com/show/535711/user.svg" alt="" srcset="" />
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact Us</li>
+            <li>Cart</li>
+            </ul>
       </div>
       </>
     );

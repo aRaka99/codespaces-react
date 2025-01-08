@@ -28,13 +28,37 @@
   flex-wrap: wrap;
 }
 .logo > img{
-  width:50px;
+  width:70px;
 
 }
 .user > img{
-  width: 30px;
+  width: 50px;
   margin: 5px;
 }
 .top-btn{
   margin: 10px;
+}
+
+.user ul li{
+list-style: none;
+margin: 5px;
+}
+.user ul {
+  display: flex
+}
+.user{
+  display: flex;
+  justify-content: space-between;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+.func{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  margin: 0 10px 0 10px;
 }

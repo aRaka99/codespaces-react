@@ -34,10 +34,13 @@ const Body = () => {
 
   return (
     <>
+      <div className="func">
+
       <input type="text" placeholder="Search..." value={SearchTerm} onChange={handleSearch} />
       <button className="top-btn" onClick={filterTopRated}>Top Rated</button>
       <button className="rst-btn" onClick={rest}>Reset</button>
 
+      </div>
 
 
       <div className="res-container">
